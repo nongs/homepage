@@ -300,10 +300,22 @@ section {
 
 /* footer */
 footer {
+  position: relative;
   padding: 2.5rem 1.25rem;
 }
 footer p {
   font-size: 0.75rem;
+}
+.footer__icon-group {
+  position: absolute; top:2.5rem; right: 1.25rem;
+  text-align: right;
+}
+.footer__icon-group a {
+  font-size: 1.25rem; color: gray;
+  transition: color .3s;
+}
+.footer__icon-group a:hover {
+  color: black;
 }
 
 @media (max-width: 1199px) {
@@ -572,5 +584,12 @@ footer p {
   }
   footer p {
     font-size: 0.75rem;
+  }
+  .footer__icon-group {
+    top:3rem; right: 2.5rem;
+  }
+  .footer__icon-group a {
+    color: black;
+    transition: color 0s;
   }
 }
