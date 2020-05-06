@@ -62,6 +62,9 @@ html, body {
   margin-bottom: 0.313rem;
   font-size: 0.875rem; line-height: 1.23;
 }
+.item-portfolio-info a {
+  color: blueviolet;
+}
 
 /* footer */
 footer {
