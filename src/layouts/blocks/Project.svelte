@@ -29,6 +29,12 @@
       <span class='key-detail'>설명</span>
       <p class='value-detail'>{item.desc}</p>
     </div>
+    {#if item.link}
+    <div>
+      <span class='key-detail'>링크</span>
+      <p class='value-detail'><a href={item.link} target="_blank">URL</a></p>
+    </div>
+    {/if}
   </div>
 </div>
 
