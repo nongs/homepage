@@ -2,6 +2,8 @@
 
 Svelte 5 + Vite로 구성된 개인 포트폴리오 웹사이트입니다.
 
+- **홈페이지**: [http://limgeonhong.com/](http://limgeonhong.com/)
+
 ## 개발 스택
 
 - **Framework**: Svelte
